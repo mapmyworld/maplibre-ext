@@ -24,7 +24,7 @@ const camera3js = new THREE.Camera();
 const scene3js = new THREE.Scene();
 const loader3js = new THREE.GLTFLoader();
 
-function newThreeJSLayer() {
+function newThreeJSLayer(moveObject) {
 	return {
 		id: 'ThreeJSLayer',
 		type: 'custom',
